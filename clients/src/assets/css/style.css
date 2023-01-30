@@ -1,0 +1,25 @@
+.App {
+  background: rgb(134, 0, 66);
+  background: linear-gradient(
+    357deg,
+    rgba(134, 0, 66, 1) 0%,
+    rgba(184, 28, 131, 1) 42%,
+    rgba(140, 0, 255, 1) 100%
+  );
+}
+.btn_update {
+  opacity: 0;
+  transition: all 1s ease;
+}
+.todo:hover {
+  cursor: pointer;
+}
+.todo:hover .btn_update{
+  opacity: 1;
+}
+.todo:hover li{
+  width: 88%;
+}
+.todo li {
+  transition: width 0.5s ease;
+}
